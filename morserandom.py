@@ -1,10 +1,8 @@
+import morse
 from google import genai
-
-
 
 client = genai.Client(api_key="YOUR API KEY")
 
-import morse
 
 def __main__():
     while 1:
@@ -28,10 +26,5 @@ def __main__():
                 print("Congrats! you found the word. Next one on the way.")
                 break
             
-            
-                
-
-
-
 
 __main__()
